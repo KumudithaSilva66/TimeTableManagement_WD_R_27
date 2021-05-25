@@ -69,9 +69,11 @@ namespace Ceylon_TimeTableManagement
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 550);
+            this.dataGridView1.Location = new System.Drawing.Point(43, 677);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1127, 201);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1503, 247);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -83,27 +85,30 @@ namespace Ceylon_TimeTableManagement
             "NONETIME",
             "PRTIME",
             "UNTIME"});
-            this.comboBox_tablekind.Location = new System.Drawing.Point(249, 145);
+            this.comboBox_tablekind.Location = new System.Drawing.Point(332, 178);
+            this.comboBox_tablekind.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_tablekind.Name = "comboBox_tablekind";
-            this.comboBox_tablekind.Size = new System.Drawing.Size(121, 22);
+            this.comboBox_tablekind.Size = new System.Drawing.Size(160, 25);
             this.comboBox_tablekind.TabIndex = 27;
             this.comboBox_tablekind.SelectedValueChanged += new System.EventHandler(this.comboBox_tablekind_SelectedValueChanged);
             // 
             // textBox_autoId
             // 
-            this.textBox_autoId.Location = new System.Drawing.Point(249, 98);
+            this.textBox_autoId.Location = new System.Drawing.Point(332, 121);
+            this.textBox_autoId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_autoId.Name = "textBox_autoId";
             this.textBox_autoId.ReadOnly = true;
-            this.textBox_autoId.Size = new System.Drawing.Size(173, 20);
+            this.textBox_autoId.Size = new System.Drawing.Size(229, 22);
             this.textBox_autoId.TabIndex = 26;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label3.Location = new System.Drawing.Point(43, 148);
+            this.label3.Location = new System.Drawing.Point(57, 182);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 19);
+            this.label3.Size = new System.Drawing.Size(101, 23);
             this.label3.TabIndex = 24;
             this.label3.Text = "Table Kind";
             // 
@@ -111,9 +116,10 @@ namespace Ceylon_TimeTableManagement
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label1.Location = new System.Drawing.Point(42, 99);
+            this.label1.Location = new System.Drawing.Point(56, 122);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 19);
+            this.label1.Size = new System.Drawing.Size(74, 23);
             this.label1.TabIndex = 23;
             this.label1.Text = "Auto ID";
             // 
@@ -122,44 +128,49 @@ namespace Ceylon_TimeTableManagement
             this.label_prandnotime.AutoSize = true;
             this.label_prandnotime.BackColor = System.Drawing.Color.AliceBlue;
             this.label_prandnotime.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_prandnotime.Location = new System.Drawing.Point(481, 9);
+            this.label_prandnotime.Location = new System.Drawing.Point(641, 11);
+            this.label_prandnotime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_prandnotime.Name = "label_prandnotime";
-            this.label_prandnotime.Size = new System.Drawing.Size(229, 19);
+            this.label_prandnotime.Size = new System.Drawing.Size(282, 23);
             this.label_prandnotime.TabIndex = 34;
             this.label_prandnotime.Text = "Preferred and Unavailable Time";
             this.label_prandnotime.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // textBox_lectureId
             // 
-            this.textBox_lectureId.Location = new System.Drawing.Point(250, 191);
+            this.textBox_lectureId.Location = new System.Drawing.Point(333, 235);
+            this.textBox_lectureId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_lectureId.Name = "textBox_lectureId";
-            this.textBox_lectureId.Size = new System.Drawing.Size(173, 20);
+            this.textBox_lectureId.Size = new System.Drawing.Size(229, 22);
             this.textBox_lectureId.TabIndex = 36;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label2.Location = new System.Drawing.Point(42, 192);
+            this.label2.Location = new System.Drawing.Point(56, 236);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 19);
+            this.label2.Size = new System.Drawing.Size(99, 23);
             this.label2.TabIndex = 35;
             this.label2.Text = "Lecture ID";
             // 
             // textBox_lecturer
             // 
-            this.textBox_lecturer.Location = new System.Drawing.Point(250, 239);
+            this.textBox_lecturer.Location = new System.Drawing.Point(333, 294);
+            this.textBox_lecturer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_lecturer.Name = "textBox_lecturer";
-            this.textBox_lecturer.Size = new System.Drawing.Size(173, 20);
+            this.textBox_lecturer.Size = new System.Drawing.Size(229, 22);
             this.textBox_lecturer.TabIndex = 38;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label5.Location = new System.Drawing.Point(44, 240);
+            this.label5.Location = new System.Drawing.Point(59, 295);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 19);
+            this.label5.Size = new System.Drawing.Size(84, 23);
             this.label5.TabIndex = 37;
             this.label5.Text = "Lecturer";
             // 
@@ -167,9 +178,10 @@ namespace Ceylon_TimeTableManagement
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label4.Location = new System.Drawing.Point(44, 291);
+            this.label4.Location = new System.Drawing.Point(59, 358);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 19);
+            this.label4.Size = new System.Drawing.Size(63, 23);
             this.label4.TabIndex = 39;
             this.label4.Text = "Group";
             // 
@@ -177,9 +189,10 @@ namespace Ceylon_TimeTableManagement
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label6.Location = new System.Drawing.Point(44, 340);
+            this.label6.Location = new System.Drawing.Point(59, 418);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 19);
+            this.label6.Size = new System.Drawing.Size(99, 23);
             this.label6.TabIndex = 41;
             this.label6.Text = "Sub Group";
             // 
@@ -194,59 +207,66 @@ namespace Ceylon_TimeTableManagement
             "004",
             "005",
             "006"});
-            this.comboBox_session.Location = new System.Drawing.Point(250, 387);
+            this.comboBox_session.Location = new System.Drawing.Point(333, 476);
+            this.comboBox_session.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_session.Name = "comboBox_session";
-            this.comboBox_session.Size = new System.Drawing.Size(121, 22);
+            this.comboBox_session.Size = new System.Drawing.Size(160, 25);
             this.comboBox_session.TabIndex = 44;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label7.Location = new System.Drawing.Point(44, 386);
+            this.label7.Location = new System.Drawing.Point(59, 475);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 19);
+            this.label7.Size = new System.Drawing.Size(76, 23);
             this.label7.TabIndex = 43;
             this.label7.Text = "Session";
             // 
             // textBox_group
             // 
-            this.textBox_group.Location = new System.Drawing.Point(249, 291);
+            this.textBox_group.Location = new System.Drawing.Point(332, 358);
+            this.textBox_group.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_group.Name = "textBox_group";
-            this.textBox_group.Size = new System.Drawing.Size(173, 20);
+            this.textBox_group.Size = new System.Drawing.Size(229, 22);
             this.textBox_group.TabIndex = 45;
             // 
             // textBox_subgroup
             // 
-            this.textBox_subgroup.Location = new System.Drawing.Point(249, 341);
+            this.textBox_subgroup.Location = new System.Drawing.Point(332, 420);
+            this.textBox_subgroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_subgroup.Name = "textBox_subgroup";
-            this.textBox_subgroup.Size = new System.Drawing.Size(173, 20);
+            this.textBox_subgroup.Size = new System.Drawing.Size(229, 22);
             this.textBox_subgroup.TabIndex = 46;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label8.Location = new System.Drawing.Point(47, 440);
+            this.label8.Location = new System.Drawing.Point(63, 542);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(50, 19);
+            this.label8.Size = new System.Drawing.Size(61, 23);
             this.label8.TabIndex = 47;
             this.label8.Text = "Room";
             // 
             // textBox_room
             // 
-            this.textBox_room.Location = new System.Drawing.Point(250, 441);
+            this.textBox_room.Location = new System.Drawing.Point(333, 543);
+            this.textBox_room.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_room.Name = "textBox_room";
-            this.textBox_room.Size = new System.Drawing.Size(173, 20);
+            this.textBox_room.Size = new System.Drawing.Size(229, 22);
             this.textBox_room.TabIndex = 48;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label9.Location = new System.Drawing.Point(533, 99);
+            this.label9.Location = new System.Drawing.Point(711, 122);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(36, 19);
+            this.label9.Size = new System.Drawing.Size(43, 23);
             this.label9.TabIndex = 49;
             this.label9.Text = "Day";
             // 
@@ -262,18 +282,20 @@ namespace Ceylon_TimeTableManagement
             "Thursday",
             "Friday",
             "Saturday"});
-            this.comboBox_day.Location = new System.Drawing.Point(654, 102);
+            this.comboBox_day.Location = new System.Drawing.Point(872, 126);
+            this.comboBox_day.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_day.Name = "comboBox_day";
-            this.comboBox_day.Size = new System.Drawing.Size(121, 22);
+            this.comboBox_day.Size = new System.Drawing.Size(160, 25);
             this.comboBox_day.TabIndex = 50;
             // 
             // lable_prandun
             // 
             this.lable_prandun.AutoSize = true;
             this.lable_prandun.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lable_prandun.Location = new System.Drawing.Point(44, 43);
+            this.lable_prandun.Location = new System.Drawing.Point(59, 53);
+            this.lable_prandun.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lable_prandun.Name = "lable_prandun";
-            this.lable_prandun.Size = new System.Drawing.Size(177, 15);
+            this.lable_prandun.Size = new System.Drawing.Size(205, 18);
             this.lable_prandun.TabIndex = 51;
             this.lable_prandun.Text = "lable preferred and unavailable";
             // 
@@ -330,18 +352,20 @@ namespace Ceylon_TimeTableManagement
             "10:30 PM",
             "11:00 PM",
             "11:30 PM"});
-            this.comboBox_starttime.Location = new System.Drawing.Point(654, 147);
+            this.comboBox_starttime.Location = new System.Drawing.Point(872, 181);
+            this.comboBox_starttime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_starttime.Name = "comboBox_starttime";
-            this.comboBox_starttime.Size = new System.Drawing.Size(121, 22);
+            this.comboBox_starttime.Size = new System.Drawing.Size(160, 25);
             this.comboBox_starttime.TabIndex = 53;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label10.Location = new System.Drawing.Point(533, 146);
+            this.label10.Location = new System.Drawing.Point(711, 180);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(80, 19);
+            this.label10.Size = new System.Drawing.Size(101, 23);
             this.label10.TabIndex = 52;
             this.label10.Text = "Start Time";
             // 
@@ -398,18 +422,20 @@ namespace Ceylon_TimeTableManagement
             "10:30 PM",
             "11:00 PM",
             "11:30 PM"});
-            this.comboBox_endtime.Location = new System.Drawing.Point(654, 191);
+            this.comboBox_endtime.Location = new System.Drawing.Point(872, 235);
+            this.comboBox_endtime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_endtime.Name = "comboBox_endtime";
-            this.comboBox_endtime.Size = new System.Drawing.Size(121, 22);
+            this.comboBox_endtime.Size = new System.Drawing.Size(160, 25);
             this.comboBox_endtime.TabIndex = 55;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label11.Location = new System.Drawing.Point(533, 190);
+            this.label11.Location = new System.Drawing.Point(711, 234);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 19);
+            this.label11.Size = new System.Drawing.Size(93, 23);
             this.label11.TabIndex = 54;
             this.label11.Text = "End Time";
             // 
@@ -417,9 +443,10 @@ namespace Ceylon_TimeTableManagement
             // 
             this.prnotime_refresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_refresh.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_refresh.Location = new System.Drawing.Point(885, 331);
+            this.prnotime_refresh.Location = new System.Drawing.Point(1180, 407);
+            this.prnotime_refresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.prnotime_refresh.Name = "prnotime_refresh";
-            this.prnotime_refresh.Size = new System.Drawing.Size(75, 50);
+            this.prnotime_refresh.Size = new System.Drawing.Size(100, 62);
             this.prnotime_refresh.TabIndex = 59;
             this.prnotime_refresh.Text = "Refresh";
             this.prnotime_refresh.UseVisualStyleBackColor = true;
@@ -430,9 +457,10 @@ namespace Ceylon_TimeTableManagement
             this.prnotime_delete.BackColor = System.Drawing.Color.AliceBlue;
             this.prnotime_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_delete.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_delete.Location = new System.Drawing.Point(885, 255);
+            this.prnotime_delete.Location = new System.Drawing.Point(1180, 314);
+            this.prnotime_delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.prnotime_delete.Name = "prnotime_delete";
-            this.prnotime_delete.Size = new System.Drawing.Size(75, 50);
+            this.prnotime_delete.Size = new System.Drawing.Size(100, 62);
             this.prnotime_delete.TabIndex = 58;
             this.prnotime_delete.Text = "Delete";
             this.prnotime_delete.UseVisualStyleBackColor = false;
@@ -443,9 +471,10 @@ namespace Ceylon_TimeTableManagement
             this.prnotime_update.BackColor = System.Drawing.Color.AliceBlue;
             this.prnotime_update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_update.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_update.Location = new System.Drawing.Point(885, 172);
+            this.prnotime_update.Location = new System.Drawing.Point(1180, 212);
+            this.prnotime_update.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.prnotime_update.Name = "prnotime_update";
-            this.prnotime_update.Size = new System.Drawing.Size(75, 50);
+            this.prnotime_update.Size = new System.Drawing.Size(100, 62);
             this.prnotime_update.TabIndex = 57;
             this.prnotime_update.Text = "Update";
             this.prnotime_update.UseVisualStyleBackColor = false;
@@ -456,9 +485,10 @@ namespace Ceylon_TimeTableManagement
             this.prnotime_save.BackColor = System.Drawing.Color.AliceBlue;
             this.prnotime_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_save.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_save.Location = new System.Drawing.Point(885, 97);
+            this.prnotime_save.Location = new System.Drawing.Point(1180, 104);
+            this.prnotime_save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.prnotime_save.Name = "prnotime_save";
-            this.prnotime_save.Size = new System.Drawing.Size(75, 50);
+            this.prnotime_save.Size = new System.Drawing.Size(100, 62);
             this.prnotime_save.TabIndex = 56;
             this.prnotime_save.Text = "Save";
             this.prnotime_save.UseVisualStyleBackColor = false;
@@ -468,18 +498,19 @@ namespace Ceylon_TimeTableManagement
             // 
             this.lable_showmessage.AutoSize = true;
             this.lable_showmessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lable_showmessage.Location = new System.Drawing.Point(48, 510);
+            this.lable_showmessage.Location = new System.Drawing.Point(64, 628);
+            this.lable_showmessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lable_showmessage.Name = "lable_showmessage";
-            this.lable_showmessage.Size = new System.Drawing.Size(117, 15);
+            this.lable_showmessage.Size = new System.Drawing.Size(139, 18);
             this.lable_showmessage.TabIndex = 60;
             this.lable_showmessage.Text = "lable showmessage";
             // 
             // PreferredandUnavailableTime
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1251, 773);
+            this.ClientSize = new System.Drawing.Size(1668, 951);
             this.Controls.Add(this.lable_showmessage);
             this.Controls.Add(this.prnotime_refresh);
             this.Controls.Add(this.prnotime_delete);
@@ -510,6 +541,7 @@ namespace Ceylon_TimeTableManagement
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PreferredandUnavailableTime";
             this.Text = "PreferredandUnavailableTime";
             this.Load += new System.EventHandler(this.PreferredandUnavailableTime_Load);
