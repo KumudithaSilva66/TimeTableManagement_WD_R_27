@@ -443,7 +443,7 @@ namespace Ceylon_TimeTableManagement
             // 
             this.prnotime_refresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_refresh.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_refresh.Location = new System.Drawing.Point(1182, 392);
+            this.prnotime_refresh.Location = new System.Drawing.Point(1181, 369);
             this.prnotime_refresh.Margin = new System.Windows.Forms.Padding(4);
             this.prnotime_refresh.Name = "prnotime_refresh";
             this.prnotime_refresh.Size = new System.Drawing.Size(100, 62);
@@ -457,7 +457,7 @@ namespace Ceylon_TimeTableManagement
             this.prnotime_delete.BackColor = System.Drawing.Color.AliceBlue;
             this.prnotime_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_delete.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_delete.Location = new System.Drawing.Point(1182, 299);
+            this.prnotime_delete.Location = new System.Drawing.Point(1181, 276);
             this.prnotime_delete.Margin = new System.Windows.Forms.Padding(4);
             this.prnotime_delete.Name = "prnotime_delete";
             this.prnotime_delete.Size = new System.Drawing.Size(100, 62);
@@ -471,7 +471,7 @@ namespace Ceylon_TimeTableManagement
             this.prnotime_update.BackColor = System.Drawing.Color.AliceBlue;
             this.prnotime_update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_update.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_update.Location = new System.Drawing.Point(1182, 197);
+            this.prnotime_update.Location = new System.Drawing.Point(1181, 174);
             this.prnotime_update.Margin = new System.Windows.Forms.Padding(4);
             this.prnotime_update.Name = "prnotime_update";
             this.prnotime_update.Size = new System.Drawing.Size(100, 62);
@@ -485,7 +485,7 @@ namespace Ceylon_TimeTableManagement
             this.prnotime_save.BackColor = System.Drawing.Color.AliceBlue;
             this.prnotime_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_save.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_save.Location = new System.Drawing.Point(1182, 104);
+            this.prnotime_save.Location = new System.Drawing.Point(1181, 81);
             this.prnotime_save.Margin = new System.Windows.Forms.Padding(4);
             this.prnotime_save.Name = "prnotime_save";
             this.prnotime_save.Size = new System.Drawing.Size(100, 62);
