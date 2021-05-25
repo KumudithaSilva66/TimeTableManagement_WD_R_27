@@ -485,7 +485,7 @@ namespace Ceylon_TimeTableManagement
             this.prnotime_save.BackColor = System.Drawing.Color.AliceBlue;
             this.prnotime_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prnotime_save.Font = new System.Drawing.Font("Cambria", 12F);
-            this.prnotime_save.Location = new System.Drawing.Point(1182, 89);
+            this.prnotime_save.Location = new System.Drawing.Point(1182, 104);
             this.prnotime_save.Margin = new System.Windows.Forms.Padding(4);
             this.prnotime_save.Name = "prnotime_save";
             this.prnotime_save.Size = new System.Drawing.Size(100, 62);
